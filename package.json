@@ -1,0 +1,18 @@
+{
+  "name": "trunk",
+  "version": "1.0.0",
+  "description": "jade to html conversion",
+  "main": "GruntFile.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sayali",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^4.0.1"
+  }
+}

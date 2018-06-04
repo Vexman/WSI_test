@@ -1,0 +1,71 @@
+block variables
+
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
+		block pageMeta
+		block pageTitle
+		block pageKeywords
+		link(rel='stylesheet', href='css/reset.css')
+		link(rel='stylesheet', href='css/style.css')
+	body
+		.main-container
+			header
+				.logo-container
+					a(href='#')
+						img.logo-main(src="assets/logo.png", alt="Williams Sonoma - California")
+				nav.navbar.navbar-default.primary-nav
+					ul
+						li
+							a(href='#') cookware
+						li
+							a(href='#') cooks' tools
+						li
+							a(href='#') cutlery
+						li
+							a(href='#') electronics
+						li
+							a(href='#') bakeware
+						li
+							a(href='#') food
+						li
+							a(href='#') tabletop & bar
+						li
+							a(href='#') homekeeping
+						li
+							a(href='#') outdoor
+						li
+							a(href='#') sale
+						li.sonoma
+							a(href='#') williams-sonoma home
+				nav.breadcrumbs
+					ul
+						li
+							a(href='#') Home
+						li
+							a(href='#') Homekeeping
+						li
+							a(href='#') Aprons
+						li
+							a(href='#') Adult Aprons
+						li Williams-Sonoma Classic Apron, French Blue
+
+
+			block mainContent
+			footer
+				.footer-container
+					span 2016 Williams-Sonoma Inc., All Rights Reserved
+					ul
+						li
+							a(href='#') Terms and Conditions 
+								span.red (Updated March 2016)
+						li
+							a(href='#') Privacy Policy
+						li 
+							a(href='#') Legal Statement
+
+		#modal(style='display:none;')
+			#modal-content
+		script(src='js/main.js')

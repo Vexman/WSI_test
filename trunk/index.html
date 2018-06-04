@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <title>Williams Sonoma - California</title>
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="logo-container"><a href="#"><img class="logo-main" src="assets/logo.png" alt="Williams Sonoma - California"></a></div>
+        <nav class="navbar navbar-default primary-nav">
+          <ul>
+            <li><a href="#">cookware</a></li>
+            <li><a href="#">cooks' tools</a></li>
+            <li><a href="#">cutlery</a></li>
+            <li><a href="#">electronics</a></li>
+            <li><a href="#">bakeware</a></li>
+            <li><a href="#">food</a></li>
+            <li><a href="#">tabletop & bar</a></li>
+            <li><a href="#">homekeeping</a></li>
+            <li><a href="#">outdoor</a></li>
+            <li><a href="#">sale</a></li>
+            <li class="sonoma"><a href="#">williams-sonoma home</a></li>
+          </ul>
+        </nav>
+        <nav class="breadcrumbs">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Homekeeping</a></li>
+            <li><a href="#">Aprons</a></li>
+            <li><a href="#">Adult Aprons</a></li>
+            <li>Williams-Sonoma Classic Apron, French Blue</li>
+          </ul>
+        </nav>
+      </header>
+      <article class="main-content">
+        <section id="main-wrapper">
+          <div id="left-content">
+            <div class="large-image" data-image="large-blue"><img id="large-image" src="assets/product-large-a.jpg" alt="French Blue"></div>
+            <div class="small-images">
+              <ul>
+                <li data-imageLarge="product-large-a.jpg" style="background-image: url(&quot;assets/product-small-a.jpg&quot;)"></li>
+                <li data-imageLarge="product-large-b.jpg" style="background-image: url(&quot;assets/product-small-b.jpg&quot;)"></li>
+                <li data-imageLarge="product-large-c.jpg" style="background-image: url(&quot;assets/product-small-c.jpg&quot;)"></li>
+                <li data-imageLarge="product-large-d.jpg" style="background-image: url(&quot;assets/product-small-d.jpg&quot;)"></li>
+              </ul>
+            </div>
+          </div>
+          <div id="right-content">
+            <div class="loaded">
+              <h2>Williams-Sonoma Classic Apron, <span data-name="blue">French Blue</span></h2>
+              <div class="copy" data-copy="classic-apron">
+                <p>A generously sized apron is a necessity in any kitchen, and ours will brighten yours with lively color. Sewn of thick cotton, it can be personalized or monogrammed with up to nine characters, all the same height, embroidered in your choice of color. An apron of this quality makes a welcome gift for any cook.</p>
+                <ul class="bullet">
+                  <li>Durable 100% cotton construction.</li>
+                  <li>Adjustable neckband ensures a good fit.</li>
+                  <li>Roomy front pockets hold small tools.</li>
+                  <li>Machine-wash.</li>
+                </ul>
+              </div>
+              <p class="price" data-price="19-95">$19.95</p>
+              <form id="item-purchace">
+                <input id="itemName" type="hidden" name="itemName" value="French Blue Apron">
+                <p>
+                  <input type="number" name="number" min="1" max="99" value="1">
+                </p>
+                <button class="submit"><img src="assets/button-add-to-cart.png" alt="Add to cart"></button>
+              </form>
+              <div id="accordion-section">
+                <div class="accordion active"><b>Heading 1</b></div>
+                <div class="panel show">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam sit amet mi non sagittis. Donec quis turpis eleifend, consectetur massa et, vehicula erat. Vestibulum id arcu a velit aliquam fermentum et ut odio. Morbi scelerisque varius magna non malesuada. In eget quam sit amet ante finibus mattis. Sed sed lectus tellus. Pellentesque eu lacus eget ante consequat imperdiet. Aenean iaculis sagittis ante in fringilla.</p>
+                </div>
+                <div class="accordion"><b>Heading 2</b></div>
+                <div class="panel">
+                  <p>Quisque a sollicitudin arcu, id sagittis turpis. Nullam tincidunt volutpat neque vitae rhoncus. Morbi egestas vestibulum suscipit. Nullam accumsan eu tortor quis dapibus. Aenean pulvinar magna id erat ullamcorper elementum. Ut eu pellentesque lorem. Suspendisse sollicitudin eros in vestibulum mattis.	</p>
+                </div>
+                <div class="accordion"><b>Heading 2</b></div>
+                <div class="panel last">
+                  <p>Vivamus dictum ac arcu nec scelerisque. Morbi non ex vel ligula condimentum euismod. Pellentesque massa magna, accumsan et tortor quis, varius rutrum felis. Phasellus vitae iaculis lectus, eu pretium tellus. Aliquam ac felis id ipsum facilisis porttitor eget sit amet ligula. Morbi mattis imperdiet tempor. Pellentesque commodo purus eu arcu tempus, eget faucibus nunc suscipit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+      <footer>
+        <div class="footer-container"><span>2016 Williams-Sonoma Inc., All Rights Reserved</span>
+          <ul>
+            <li><a href="#">Terms and Conditions <span class="red">(Updated March 2016)</span></a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li> <a href="#">Legal Statement</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <div id="modal" style="display:none;">
+      <div id="modal-content"></div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
